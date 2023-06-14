@@ -3,7 +3,7 @@ import Productview from './Productview.Layout.jsx'
 import { useState } from 'react'
 
 export default function Homeview() {
-    const [color, setColor] = useState("");
+    const [color, setColor] = useState("brown");
     return (
         <div>
             <h1>Homeview</h1>
