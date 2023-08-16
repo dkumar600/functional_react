@@ -13,8 +13,6 @@ Productview.defaultProps = {
 };
 
 export default Productview;
-
-//Debug this code
 //What is the use of props
 //What is the use of state
 //What is the use of useState
