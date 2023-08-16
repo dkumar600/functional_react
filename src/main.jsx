@@ -27,6 +27,7 @@ import FacebookMini from './InterviewTask/File';
 import UseCallBackTest from './taskFasttrack1/UseCallBack';
 import ErrorBoundary from './taskFasttrack1/ErrorBoundaries';
 import { ThemeProvider,DataProvider } from './ContextAPI'
+import { FormTask } from './taskFasttrack1/FormTask';
 const router = createBrowserRouter([
 {
   path:'/',
@@ -73,6 +74,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider>
       <DataProvider>
         <UseCallBackTest/>
+        <FormTask/>
       </DataProvider>
     </ThemeProvider>
     </ErrorBoundary>
